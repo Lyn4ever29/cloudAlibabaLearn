@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/JDK-1.8-brightgreen) ![](https://img.shields.io/badge/SpringBoot-2.2.2.RELEASE-red) ![](https://img.shields.io/badge/SpringCloud-Hoxton.SR1-blue) ![](https://img.shields.io/badge/SpringCloudAlibaba-2.2.0.RELEASE-brightred)
 
 
-# SpringCloud学习笔记
+# SpringCloudAlibaba学习笔记
  这个地址是SpringCloudAlibaba的学习地址，在这之前请先阅读
  [SpringCloud从入门到生产](https://github.com/Lyn4ever29/cloudAlibabaLearn.git)
 
