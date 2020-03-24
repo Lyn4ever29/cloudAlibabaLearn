@@ -1,0 +1,4 @@
+spring:
+  profiles:
+#  在实际开发中可能有多个环境，比如dev,test,pro等，当前可用的配置文件就是dev
+    active: dev

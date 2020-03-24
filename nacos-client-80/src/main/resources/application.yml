@@ -1,0 +1,17 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: nacos-client-80
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+
+##    打开SpringBoot项目的所有监控路径
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+
