@@ -1,0 +1,30 @@
+server:
+  port: 80
+spring:
+  application:
+    name: gateway-common-80
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+    gateway:
+      discovery:
+        locator:
+          enabled: true # 开启动态路由，也就是从微服务中获取服务名
+      routes:  # 注意看，这里叫routes 说明内容是一个数组，- 就表示数组
+        - id: goods_path   # 唯一id,随便起，但是不能重名
+          uri: lb://gateway-goods-7001  #lb意思是load balance 负载均衡，内部用的是ribbon
+          predicates:
+            - Path=/goods/** # 匹配的路径** 代表通配
+
+        - id: order_path
+          uri: lb://gateway-order-8001
+          predicates:
+            - Path=/order/**
+
+        - id: user_path
+          uri: lb://gateway-user-9001
+          predicates:
+            - Path=/user/**
+
+

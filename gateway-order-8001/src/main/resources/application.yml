@@ -1,0 +1,9 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: gateway-order-8001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

@@ -1,0 +1,9 @@
+server:
+  port: 7001
+spring:
+  application:
+    name: gateway-goods-7001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

@@ -1,0 +1,9 @@
+server:
+  port: 9001
+spring:
+  application:
+    name: gateway-user-9001
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848

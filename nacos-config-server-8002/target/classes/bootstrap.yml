@@ -1,0 +1,17 @@
+server:
+  port: 8002
+spring:
+  application:
+    name: nacos-config-server-8002
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+# 指定要注册的名称空间，默认是publi
+#        namespace: spaces1
+      config:
+        server-addr: localhost:8848
+#       配置文件类型，有yaml和properties ,注意一定是yaml,不是yml
+        file-extension: yaml
+#       指定名称空间
+#       namespace: space1
