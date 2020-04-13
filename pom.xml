@@ -11,6 +11,10 @@
         <module>nacos-server-8001</module>
         <module>nacos-client-80</module>
         <module>nacos-config-server-8002</module>
+        <module>gateway-order-8001</module>
+        <module>gateway-goods-7001</module>
+        <module>gateway-user-9001</module>
+        <module>gateway-common-80</module>
     </modules>
 
 

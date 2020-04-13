@@ -35,6 +35,10 @@
  
 ## Sential 
 
+## GateWay(这是SpringCloud官方组件，并不是Alibaba的，之前仓库是1.5)
+>   放在这里是因为GateWay要求SpringBoot版本是2.0以上
+*  [GateWay入门操作](https://github.com/Lyn4ever29/cloudAlibabaLearn/tree/master/gateway-common-80)
+
 
 ## 更多学习资料
 
