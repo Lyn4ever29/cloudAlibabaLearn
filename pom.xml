@@ -15,6 +15,7 @@
         <module>gateway-goods-7001</module>
         <module>gateway-user-9001</module>
         <module>gateway-common-80</module>
+        <module>gateway-custom-filter-80</module>
     </modules>
 
 

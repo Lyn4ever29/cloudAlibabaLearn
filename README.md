@@ -39,6 +39,7 @@
 >   放在这里是因为GateWay要求SpringBoot版本是2.0以上
 *  [GateWay入门操作](https://github.com/Lyn4ever29/cloudAlibabaLearn/tree/master/gateway-common-80)
 
+* [Gateway与SpringSecurity结合](https://github.com/Lyn4ever29/cloudAlibabaLearn/tree/master/gateway-custom-filter-80)
 
 ## 更多学习资料
 
